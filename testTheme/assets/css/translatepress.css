@@ -1,0 +1,63 @@
+#trp-floater-ls {
+  display: none;
+}
+
+.trp-language-switcher .trp-ls-shortcode-current-language {
+  width: unset !important;
+}
+
+.trp-language-switcher {
+  position: relative;
+  width: unset;
+  height: unset;
+  z-index: 10000;
+}
+
+.trp-ls-shortcode-language {
+  width: unset !important;
+  padding: 0 !important;
+}
+
+.trp-language-switcher:hover .trp-ls-shortcode-language {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.trp-language-switcher > div {
+  border: none;
+  background-image: none;
+  background: transparent;
+}
+
+.trp-ls-shortcode-current-language {
+  padding: 0 !important;
+}
+
+.trp-language-switcher > div > a,
+.trp-language-switcher > div > a.trp-ls-shortcode-disabled-language {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 5px 10px !important;
+  background: transparent;
+  display: block;
+}
+
+.trp-language-switcher > div > a:hover {
+  background: #0000002c !important;
+}
+
+.mobile-lang .trp-language-switcher > div > a,
+.mobile-lang
+  .trp-language-switcher
+  > div
+  > a.trp-ls-shortcode-disabled-language {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 5px 10px !important;
+  background: transparent;
+  display: block;
+}
